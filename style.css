@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+nav{
+    display: flex;
+    position:sticky;
+    justify-content: space-between;
+    padding: 0px 20px;
+    /* background-color: antiquewhite; */
+    height: 60px;
+    align-items: center;
+}
+#nv1{
+    width: 200px;
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+}
+#nv1 h4{
+    color: rgba(0, 0, 0, 0.45);
+    border: 1.5px solid rgba(0, 0, 0, 0.45);
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nv1 h4:hover{
+    color: orange;
+}
+#nv1 i{
+    color: rgba(0, 0, 0, 0.45);
+    /* border: 1.5px solid rgba(0, 0, 0, 0.45); */
+    /* padding: 0px 5px;
+    border-radius: 20px;
+    font-weight: 500; */
+}
+
+#nv2{
+    width: 200px;
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+}
+
+#nv3 button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: rgba(255, 68, 0, 0.849);
+    color: white;
+    font-weight: 600;
+}
+#nv3 button:hover{
+    background-color: white;
+    color: rgba(255, 68, 0, 0.849);
+}
+#main>h1{
+    font-size: 170px;
+    color: darkorange;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#main>h1:hover{
+    color: rgba(255, 166, 0, 0.774);
+}
+img{
+    height: 365px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 15px;
+}
+#ft1{
+    color: darkgray;
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+}
+#ft1 h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+#btmtxt{
+   text-align: center;
+   color: darkgray;
+}
+#logos i {
+    padding: 0px 12px;
+    color: rgb(109, 109, 109);
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+a:hover{
+    color:darkcyan;
+}
